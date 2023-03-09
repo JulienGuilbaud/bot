@@ -1,0 +1,15 @@
+{
+  "name": "s06e02-exos-bot-alexisoclock",
+  "version": "1.0.0",
+  "description": "Aujourd'hui on va coder un programme en JavaScript et l'executer avec Node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^13.9.0"
+  }
+}
