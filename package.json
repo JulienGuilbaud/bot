@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "description": "Aujourd'hui on va coder un programme en JavaScript et l'executer avec Node.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "node-dev index --clear --notify=false",
+    "nomraccourci": "ma commande"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "node-dev": "^8.0.0"
   }
 }

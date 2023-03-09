@@ -1,7 +1,8 @@
-const fs = require('fs');
-const readline = require('readline');
-const childProcess = require("child_process");
-const path = require('path');
+
+import fs from "fs";
+import readline from "readline";
+import childProcess from "child_process";
+import path from "path";
 
 const rl = readline.createInterface({
   input: process.stdin,
